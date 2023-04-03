@@ -1,4 +1,3 @@
-
 /*
 * loop on line 14 and 18
 */
@@ -12,8 +11,11 @@ void setup() {
 void loop() {
 
   for (int i=0; i<10; i++) {      // this is the loop.
-    serial.print("Helo World!")
+    Serial.println("Helo World!");
+    delay(1000);
   }
+
+while (true);
 
 }
 
