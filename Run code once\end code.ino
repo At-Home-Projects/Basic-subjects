@@ -9,16 +9,16 @@
 
 void setup() {
 
-Serial.begin(9600); // setup serial monitor
+  Serial.begin(9600); // setup serial monitor
 
 }
 
 void loop() {
 
-Serial.println("Hello World!"); // print to show it works
-
-while (true); // while true do nothing
-
-Serial.println("This will not print!"); // print to show anything after the while loop will not run
+  Serial.println("Hello World!"); // print to show it works
+  
+  while (true); // while true do nothing
+  
+  Serial.println("This will not print!"); // print to show anything after the while loop will not run
 
 }
